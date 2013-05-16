@@ -1,0 +1,105 @@
+html {
+	background : #fffff;
+	color : black;
+	font-family:Arial;
+}
+
+button {
+	border-radius: 4px;
+}
+
+b {
+	color :  #c1ffd0;
+}
+
+#page {
+	width : 1000px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	background : #c1ffd0;
+	overflow : hidden;
+	margin : auto;
+}
+
+#descrDataDiv {
+	overflow : auto;
+
+}
+
+#header {
+	width : 100%;
+	height : 150px;
+}
+
+#content {
+
+}
+
+#footer {
+	width : 100%;
+	margin-bottom : 0;
+	color:  white;
+	padding : 20px;
+	height : 15px;
+	background : #6f6f6f;
+
+}
+
+#banner {
+	width : 100%;
+	height : 100px;
+	background : #6f6f6f url("../img/banner.png");
+}
+
+#menuBar {
+	width: 100%;
+	height : 50px;
+	background : #6f6f6f;
+}
+
+#chooseFile {
+	display : none;
+}
+
+#googleEarthDiv {
+	height : 500px;
+	display : none;
+
+}
+
+.bubbleDiv {
+	width : 98%;
+	color : white;
+	line-height : 28px;
+	min-height : 20px;
+	background : #6f6f6f;
+	margin : 5px auto;
+	padding : 4px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+.bubbleDiv h3 {
+	color : #c1ffd0;
+	margin : 4px auto 10px;
+
+}
+
+
+.menuItem {
+	padding-top : 15px;
+	height : 34px;
+	float : left;
+	text-align:center;
+	width : 100px;
+	background : #6f6f6f;
+	border-right : #c1ffd0 solid 1px;
+	color : #c1ffd0;
+}
+
+.menuItem:hover {
+	color : #6f6f6f;
+	background : #c1ffd0;
+}
